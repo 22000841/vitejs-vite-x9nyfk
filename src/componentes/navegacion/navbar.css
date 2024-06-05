@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* General Navbar Styles */
+.navbar {
+  font-size: 20px;
+  background-color: #5a5917; /* Updated background color */
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Homer Simpson UI'; /* Updated font family */
+}
+
+/* Navbar Container */
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+
+/* Navbar Nav */
+.navbar-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+  flex: 1;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Navbar Link Background Colors */
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+  background-color: #c4c000; /* Color for "Alertas y recordatorios" */
+}
+.navbar-nav .nav-item:nth-child(2) .nav-link {
+  background-color: rgb(176, 196, 222); /* Color for "Rutina de autocuidado" */
+}
+.navbar-nav .nav-item:nth-child(3) .nav-link {
+  background-color: rgb(255, 166, 0); /* Color for "Recursos y consejos" */
+}
+.navbar-nav .nav-item:nth-child(4) .nav-link {
+  background-color: navajowhite ; /* Color for "Seguimiento de salud" */
+}
+.navbar-nav .nav-item:nth-child(5) .nav-link {
+  background-color: #e75d41; /* Color for "Usuario" */
+}
+
+/* Hover and Active States */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+  opacity: 0.8;
+}
+
+/* Disabled Link */
+.navbar-nav .nav-link.disabled {
+  color: #6c757d;
+}
+/* Navbar Toggler (for mobile view) */
+.navbar-toggler {
+  border: none;
+}
+

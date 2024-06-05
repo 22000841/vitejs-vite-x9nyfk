@@ -1,0 +1,55 @@
+.App {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #5a5917;
+  color: #FFFFFF;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea el contenido a la izquierda */
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Homer Simpson UI';
+  font-size: 35px;
+  margin-bottom: 10px; /* Ajusta el margen inferior */
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Homer Simpson UI';
+  font-size: 28px;
+  margin-bottom: 220px; /* Ajusta el margen inferior */
+  color: rgba(114, 114, 114, 0.808);
+}
+.search-container {
+  position: absolute; /* Posiciona de manera absoluta */
+  top: 200px; /* Ajusta según el tamaño de tu barra de navegación */
+  right: 20px; /* Alinea con el lado derecho */
+}
+.search-form { 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+.search-input { 
+  padding: 5px; 
+  margin-right: 5px; 
+} 
+ 
+.search-button { 
+  padding: 5px 10px; 
+  background-color: #222; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+} 
+ 
+.search-button:hover { 
+  background-color: #444; 
+} 
